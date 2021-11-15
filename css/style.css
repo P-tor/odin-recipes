@@ -1,6 +1,7 @@
 body {
     text-align: center;
     background-color: rgb(247, 247, 232);
+
 }
 
 .header {
@@ -12,6 +13,8 @@ body {
 
 .images {
     margin-top: 30px;
+    width: 40%;
+    height: 50%;
 }
 
 .recipes {
@@ -29,6 +32,43 @@ body {
     
 }
 
-a:hover{
-    color:rgb(102, 98, 93)  ;
+/*button home*/
+
+.button {
+    border-radius: 30%;
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    font-size: 18px;
 }
+
+.button a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color:rgb(102, 98, 93) ;
+}
+
+.head {
+    font-family:serif;
+    font-size: 50px;
+}
+
+
+/*Logo*/
+.logo {
+    width: 60%;
+    height: 100%;
+}
+
+/*empanada*/
+.container {
+    line-height: 1.8em;
+    margin: 5px;
+    padding: 5px 5px 5px 5px;
+    border: black;
+}
+
+
